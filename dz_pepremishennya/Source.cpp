@@ -58,11 +58,14 @@ public:
 };
 
 
+
 int main()
 {
     ResourceContainer a(5);
     a.FillRandom();
     a.Print();
+
+    int z = 8;
 
     ResourceContainer b = a; 
     b.Print();
